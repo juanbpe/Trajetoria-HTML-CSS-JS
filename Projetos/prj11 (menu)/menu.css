@@ -1,0 +1,105 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: center;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tela-cheia{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+}
+
+.login-box{
+    border: 2px solid rgba(0, 0, 0, 0.21);
+    width: 30%;
+    height: 50%;
+    padding: 40px;
+    padding-left: 40px;
+    padding-top: 40px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 3%;
+    align-content: center;
+}
+
+.login-box h2{
+    height: 40px;
+    width: 390px;
+    text-align: center;
+}
+
+input[type=text],input[type=password]{
+    background-color: rgb(255, 255, 255);
+    padding: 9px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.esqueceu-senha{
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.esqueceu-senha:hover{
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+button{
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 40px auto;
+}
+
+button:hover{
+    animation-name: rainbow-button;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbow-button{
+    0%{background-color: #165f9b;}
+    10%{background-color: #ff0000;}
+    20%{background-color: #0f0;}
+    30%{background-color: purple;}
+    40%{background-color: pink;}
+    50%{background-color: rgb(27, 114, 190);}
+    60%{background-color: #ff7000;}
+    70%{background-color: rgb(255, 0, 140);}
+    80%{background-color: #e5ff00;}
+    90%{background-color: blueviolet;}
+    100%{background-color: gray;}
+}
+
+input[type=checkbox]:checked{
+    animation-name: rainbow;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbow{
+    0%{accent-color: blue;}
+    25%{accent-color: red;}
+    50%{accent-color: green;}
+    75%{accent-color: yellow;}
+    100%{accent-color: purple;}
+}

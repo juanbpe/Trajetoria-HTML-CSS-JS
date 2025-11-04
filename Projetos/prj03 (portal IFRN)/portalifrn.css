@@ -1,0 +1,92 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.telacheia{
+    width: 100%;
+    border: 1px solid red;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    border: 1px solid green;
+}
+
+.cabecalho-filho{
+    width: 80%;
+    border: 1px solid lightblue;
+    display: flex;
+}
+
+.cabecalho-esquerda{
+    width: 50%;
+    border: 1px solid brown;
+    display: flex;
+}
+
+.cabecalho-direita{
+    width: 50%;
+    border: 1px solid brown;
+    display: block;
+    padding-top: 2%;
+}
+
+.nome-instituicao{
+    border: 1px solid brown;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 15px;
+    color: #555555;
+}
+
+.menu-container{
+    border: 1px solid green;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    border: 1px solid brown;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.item-menu{
+    margin: 15px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.conteudo-container{
+    border: 1px solid green;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.noticias-destaque{
+    border: 1px solid brown;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.noticia{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: 1px solid green;
+}
+
+.noticia img{
+    width: 300px;
+    height: 540px;
+    border-radius: 15px;
+}

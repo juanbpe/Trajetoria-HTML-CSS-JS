@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Notas e MF</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='notas.js'></script>
+</head>
+<body>
+    <div class="notas">
+        <h2>Cálculo de Média</h2>
+            <label>Nota 1:</label>
+            <input type="number" id="nota1" placeholder="Digite um valor de 0 a 100"><br><br>
+            
+            <label>Nota 2:</label>
+            <input type="number" id="nota2" placeholder="Digite um valor de 0 a 100"><br><br>
+
+            <label>Nota A.F.:</label>
+            <input type="number" id="notaavaliacao" placeholder="(Opcional)">
+        </div>
+        <br>
+        <div class="calculo">
+            <button onclick="calcular()">Calcular</button>
+            <button onclick="quantoFalta()">Quanto falta pra passar?</button><br><br>
+        </div>
+        
+        <div class="resultado">
+            <h2>Resultado:</h2>
+            <div>
+                <label>MF:</label>
+                <input type="text" id="mf">
+            </div>
+            <br>
+            <div>
+                <label>Situação:</label>
+                <input type="text" id="situacao">
+            </div>
+        </div>
+</body>
+</html>

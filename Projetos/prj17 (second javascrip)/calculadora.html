@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Second JS</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='calculadora.js'></script>
+</head>
+<body>
+    <form>
+        <div>
+            <div>
+                <label>Número 1:</label>
+                <input type="text" name="num1" id="num1"><br><br>
+            </div>
+            <div>
+                <label>Número 2:</label>
+                <input type="text" name="num2" id="num2"><br><br>
+            </div>
+            <div>
+                <input type="radio" name="operacao" id="operacao_1" value="+">
+                <label>Somar</label>
+                <br>
+                <input type="radio" name="operacao" id="operacao_2" value="-">
+                <label>Subtrair</label>
+                <br>
+                <input type="radio" name="operacao" id="operacao_3" value="*">
+                <label>Multiplicar</label>
+                <br>
+                <input type="radio" name="operacao" id="operacao_4" value="/">
+                <label>Dividir</label>
+            </div>
+            <div id="resultado"></div><br><br>
+            <div>
+                <input type="button" name="btcalcular" value="Calcular" onclick="calcular()">
+            </div>
+        </div>
+    </form>
+</body>
+</html>

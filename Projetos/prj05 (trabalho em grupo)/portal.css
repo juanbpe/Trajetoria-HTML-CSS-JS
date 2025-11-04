@@ -1,0 +1,273 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.telacheia{
+    width: 100%;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho-filho{
+    width: 80%;
+    display: flex;
+}
+
+.cabecalho-esquerda{
+    width: 50%;
+    display: flex;
+}
+
+.cabecalho-direita{
+    width: 50%;
+    display: flex;
+    padding-top: 2%;
+    justify-content: space-around;
+}
+
+.nome-instituicao{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 15px;
+    color: #555555;
+}
+
+.menu-container{
+    border: 1px solid green;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.item-menu{
+    margin: 15px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.conteudo-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.noticias-destaque{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.noticia{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.noticia img{
+    width: 300px;
+    height: 540px;
+    border-radius: 15px;
+}
+
+.titulonoticia{
+    width: 26%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.titulonoticia h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.noticias-destaque2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.noticia2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.noticia2 img{
+    width: 290px;
+    height: 290px;
+    border-radius: 15px;
+}
+
+.noticia2 p{
+    justify-content: center;
+    color: green;
+    font-size: 20px;
+}
+
+.titulo_numeros{
+    padding-left: 178px;
+    text-align: start;
+    margin: 40px auto 20px auto;
+}
+
+.titulo_numeros h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.texto_numeros{
+    padding-left: 178px;
+    text-align: justify;
+    color: #2b2626;
+    margin: 0 auto;
+}
+
+.dados_numeros_container{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    gap: 10px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.dado_numero{
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.icon-numero{
+    margin-bottom: 10px;
+    color: #66bb6a;
+}
+
+.valor-numero{
+    font-size: 2.2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.descricao-numero{
+    font-size: 0.9em;
+    color: #666;
+    line-height: 1.3;
+}
+
+.container{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.logo-container{
+    margin-bottom: 15px;
+}
+
+.logo-container img{
+    max-width: 120px;
+    height: auto;
+}
+
+.info-section{
+    flex-grow: 1;
+    padding-left: 20px;
+}
+
+.info-section h2{
+    font-size: 1.1em;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.info-section p{
+    font-size: 0.9em;
+    color: #555;
+    margin: 3px 0;
+    line-height: 1.4;
+}
+
+.info-section p a{
+    color: #555;
+    text-decoration: none;
+}
+
+.info-section p a:hover{
+    text-decoration: underline;
+}
+
+.right-section{
+    border: 1px solid #007bff;
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #e6f2ff;
+    box-shadow: 0 2px 5px rgba(0, 123, 255, 0.1);
+}
+
+.e-mec-logo img{
+    max-width: 60px;
+    height: auto;
+}
+
+.e-mec-text{
+    text-align: center;
+}
+
+.e-mec-text p{
+    font-size: 0.85em;
+    color: #0056b3;
+    margin: 0;
+    line-height: 1.3;
+}
+
+.e-mec-text a{
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.e-mec-text a:hover{
+    text-decoration: underline;
+}
+
+.qr-code img{
+    max-width: 90px;
+    height: auto;
+}

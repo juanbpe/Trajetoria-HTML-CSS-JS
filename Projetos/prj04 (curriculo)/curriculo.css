@@ -1,0 +1,64 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 30px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+.telacheia {
+    display: flex;
+    width: 850px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #838b83;
+}
+
+.painel-esquerdo {
+    width: 100%;
+    background-color: rgb(95, 3, 3);
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.painel-esquerdo h1 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: center;
+}
+
+.painel-esquerdo h3 {
+    background-color: rgb(61, 1, 1);
+    text-align: center;
+}
+
+.painel-esquerdo p {
+    padding: 5px;
+    text-align: justify;
+}
+
+.painel-esquerdo h4 {
+    text-align: justify;
+    padding: 5px;
+}
+
+.painel-direito {
+    display: flex;
+    text-align: justify;
+}
+
+.painel-direito h3 {
+    background-color: #DDDDE7;
+}
+
+.painel-direito p {
+    text-align: left;
+    padding: 5px;
+}
+
+.painel-direito h2 {
+    font-size: 35px;
+}

@@ -1,0 +1,26 @@
+.img{
+    width: 300px;
+    height: auto;
+    padding: 15px;
+}
+
+.container{
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.img:hover{
+    box-shadow: 0 0 10px 0 gray;
+}
+
+@media (max-width: 600px){
+    .container{
+        display: block;
+    }
+    .img{
+        width: 450px;
+        height: auto;
+    }
+}

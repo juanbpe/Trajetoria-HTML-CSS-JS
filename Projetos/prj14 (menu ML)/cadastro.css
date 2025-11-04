@@ -1,0 +1,95 @@
+body{
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+.container{
+  width: 700px;
+  margin: 90px auto;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+.titulo{
+  background: #ffcc00;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.setor-form{
+  padding: 15px;
+}
+
+.grupos-form{
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #004c99;
+  font-weight: bold;
+}
+
+.grupos-form label{
+  width: 130px;
+  font-size: 14px;
+}
+
+.grupos-form input, .grupos-form select{
+  flex: 1;
+  padding: 6px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+input:focus{
+    background-color: rgb(217, 235, 250);
+    transform: scale(1,2.5);
+    transition: background-color 2s, color 5s;
+    transition-timing-function: ease;
+}
+
+.obs{
+  font-size: 12px;
+  color: #575470;
+  margin-left: 140px;
+  margin-top: 20px;
+}
+
+button{
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background: #1670ca;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color ease;
+}
+
+button:hover{
+  animation-name: rainbow-button;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rainbow-button{
+  0%{background-color: #1670ca;}
+  10%{background-color: #0000FF;}
+  20%{background-color: #1E90FF;}
+  30%{background-color: #00CED1;}
+  40%{background-color: #00FFFF;}
+  50%{background-color: #40E0D0;}
+  60%{background-color: #ADFF2F;}
+  70%{background-color: #9ACD32;}
+  80%{background-color: #FFD700;}
+  90%{background-color: #FFFF00;}
+  100%{background-color: #00008B;}
+}
+
+.obrigatorio{
+  color: #210099;
+  font-size: 15px;
+  font-style: oblique;
+}

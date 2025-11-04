@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Cadastro</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" type="image/x-icon" href="imgs/icon.ico">
+    <link rel='stylesheet' type='text/css' media='screen' href='cadastro.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="container">
+        <div class="titulo">Dados Pessoais</div>
+            <div class="setor-form">
+                <div class="grupos-form">
+                    <label>Nome<span class="obrigatorio">*</span>:</label>
+                    <input type="text" name="nome">
+                    <label>Sobrenome<span class="obrigatorio">*</span>:</label>
+                    <input type="text" name="sobrenome">
+                </div>
+                <div class="grupos-form">
+                    <label>País<span class="obrigatorio">*</span>:</label>
+                    <input type="text">
+                </div>
+                <div class="grupos-form">
+                    <label>Estado<span class="obrigatorio">*</span>:</label>
+                    <select>
+                        <option>Escolher</option>
+                        <option>RN</option>
+                        <option>PB</option>
+                        <option>PE</option>
+                        <option>CE</option>
+                    </select>
+                    <label>Cidade<span class="obrigatorio">*</span>:</label>
+                    <input type="text" name="cidade">
+                </div>
+                <div class="grupos-form">
+                    <label>Telefone<span class="obrigatorio">*</span>:</label>
+                    <input type="text" placeholder="Ex: (84) 99999-0000">
+                </div>
+                <div class="grupos-form">
+                    <label>Telefone 2</label>
+                    <input type="text" placeholder="Opcional">
+                </div>
+            </div>
+            <div class="titulo">Dados do Usuário no MercadoLivre</div>
+                <div class="setor-form">
+                    <div class="grupos-form">
+                        <label>Apelido<span class="obrigatorio">*</span>:</label>
+                        <input type="text" placeholder="O apelido que será utilizado na comunidade">
+                    </div>
+                    <div class="grupos-form">
+                        <label>Senha<span class="obrigatorio">*</span>:</label>
+                        <input type="password">
+                        <label>Repetir senha<span class="obrigatorio">*</span>:</label>
+                        <input type="password">
+                    </div>
+                    <p class="obs">A senha deve ter de 6 a 12 dígitos (pode conter letras e números).</p>
+                </div>
+        <button>Cadastrar</button>
+    </div>
+</body>
+</html>
